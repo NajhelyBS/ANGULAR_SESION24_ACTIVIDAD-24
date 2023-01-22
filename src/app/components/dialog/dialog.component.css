@@ -1,0 +1,19 @@
+nav {
+    background-color: rgba(173, 165, 165, 0.747);
+}
+
+span {
+    font-size: 17px;
+    color: rgb(61, 61, 61);
+    padding-top:6px;
+}
+img {
+    padding: 0.7em;
+
+}
+
+
+.mat-mdc-form-field {
+    width: 15em;
+
+}

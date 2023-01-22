@@ -1,14 +1,19 @@
+<nav >
+    <img src="https://assets.stickpng.com/images/5847ea22cef1014c0b5e4833.png" width="50" alt="">
+    <span>Angular Material</span>
+</nav>
+
 <ol>
     <li>
-      <mat-form-field>
+      <mat-form-field class="mt-4">
         <mat-label>Cuál es tu nombre?</mat-label>
         <input matInput [(ngModel)]="nombre">
       </mat-form-field>
     </li>
-    <li>
-      <button mat-raised-button (click)="openDialog()">Abrir Dialog</button>
+    <li class="mt-2">
+      <button mat-raised-button color="primary" (click)="openDialog()">Abrir Dialog</button>
     </li>
-    <li *ngIf="deporte">
+    <li *ngIf="deporte" class="mt-4" id="respuesta">
       Tu deporte favorito es : <i>{{deporte}}</i>
     </li>
   </ol>
